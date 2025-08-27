@@ -16,6 +16,24 @@ A local web search server for LM Studio that enables AI models to search the web
 - Python 3.12 or higher
 - [uv](https://github.com/astral-sh/uv) package manager
 
+### What is uv?
+
+[uv](https://github.com/astral-sh/uv) is an extremely fast Python package installer and resolver, written in Rust. It's a replacement for pip and pip-tools with significant performance improvements.
+
+### Installing uv
+
+On macOS and Linux:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+On Windows:
+```bash
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+For other installation methods, see the [uv documentation](https://docs.astral.sh/uv/).
+
 ### Setup
 
 1. Clone this repository:
