@@ -56,11 +56,9 @@ Add the following configuration to your LM Studio `mcp.json` file:
 {
   "mcpServers": {
     "local-web-search": {
-      "command": "uv",
+      "command": "python",
       "args": [
-        "run",
-        "python",
-        "/absolute/path/to/web-search-lmstudio-mcp/main.py"
+        "C:\\projects\\cloned\\web-search-mcp-lmstudio\\main.py"
       ]
     }
   }
